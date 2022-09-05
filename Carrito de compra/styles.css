@@ -1,0 +1,39 @@
+.encabezado{
+    background-color: #23A057;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    }
+    body{
+        font-family: sans-serif;
+        padding: 90px 20px 0;
+    }
+    .nav{
+        display:  flex;
+        justify-content: space-between;
+    }
+    .Logo{
+     text-decoration: none;
+     color: black;
+     font-size: 30px;
+     font-weight: bold;
+     padding:0 40px;
+     line-height: 80px;
+    }
+    .menu{
+        display: flex;
+        margin: 40px;
+        list-style: none;
+        font-size: 25px;
+        margin: 0 10px;
+        line-height: 100px;
+        text-transform: uppercase;
+    }
+    .pie{
+        background-color: #23A057;
+        list-style: none;
+        font-size: 25px;
+    }
+    
